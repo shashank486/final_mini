@@ -127,10 +127,10 @@ app.get('/Patprofile', (req, res) => {
 
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/PMSreg.html'));
+    res.sendFile(path.join(__dirname, '/profile/PMSreg.html'));
 });
 app.get('/PMSreg', (req, res) => {
-    res.sendFile(path.join(__dirname, '/PMSreg.html'));
+    res.sendFile(path.join(__dirname, '/profile/PMSreg.html'));
 });
 
 app.get('/Docregister', (req, res) => {
